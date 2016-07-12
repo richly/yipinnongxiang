@@ -1,0 +1,14 @@
+.text{border:solid 2px #ccc;width:100%;height:40px;background:url(../../images/search_24px.png) no-repeat 0 center;}
+.text input{float:left;border:none;background:none;height:40px;line-height:30px;width:100%; text-indent:32px;}
+.nav-tabs{display:inline-block,-webkit-flex;}
+.nav-tabs-item{flex:1;}
+.more{float:right;padding-right:3%;height:30px;line-height:30px;}
+.title{float:left;padding-left:3%;height:30px;line-height:30px;}
+.product{width:45.5%; height:120px;margin-left:3%;background-color:#999999}
+ul { position: relative;padding: 0;margin: 0;list-style-type: none;}
+ul li {float: left;}
+ul li a {display: block;padding: 10px 20px;text-decoration: none;color: #232323;}
+ul li.active:hover a {background: #f7f8f9;}
+ul li.active a{color: #7CFC00;}
+ul li.active ~ .gu-sliding-bar {background: #7CFC00;}
+ul li a,.gu-sliding-bar {-webkit-transition: all 0.2s ease;-moz-transition: all 0.2s ease;-o-transition: all 0.2s ease;transition: all 0.2s ease;-webkit-transform: translate3d(0, 0, 0); //Makes transition hardware accelerated}
